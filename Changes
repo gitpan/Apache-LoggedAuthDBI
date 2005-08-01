@@ -1,0 +1,9 @@
+Revision history for Perl extension Apache::LoggedAuthDBI.
+
+
+
+0.11  Jul 15, 2005 - removed serverspecific code to make this module CPAN-friendly.
+
+
+0.10  until Jul 15, 2005
+	- original version developed for 1200Group LLC
