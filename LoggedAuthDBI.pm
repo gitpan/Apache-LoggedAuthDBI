@@ -1,6 +1,6 @@
 package Apache::LoggedAuthDBI;
 
-$Apache::LoggedAuthDBI::VERSION = '0.11';
+$Apache::LoggedAuthDBI::VERSION = '0.12';
 
 use constant MP2 => $ENV{MOD_PERL_API_VERSION} == 2 ? 1 : 0;
 use Apache::AuthDBI;
@@ -189,7 +189,7 @@ __END__
 
  # Configuration in httpd.conf or startup.pl:
 
- PerlModule Apache::AuthDBI
+ PerlModule Apache::LoggedAuthDBI
 
  # Authentication and Authorization in .htaccess:
 
